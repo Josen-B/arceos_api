@@ -26,15 +26,15 @@ myfs = ["axfeat/myfs"]
 dummy-if-not-enabled = []
 
 [dependencies]
-axfeat = { git = "https://github.com/Starry-OS/axfeat.git" }
-axruntime = { git = "https://github.com/Starry-OS/axruntime.git" }
+axfeat = { git = "https://github.com/Josen-B/axfeat.git" }
+axruntime = { git = "https://github.com/Josen-B/axruntime.git" }
 axconfig = { git = "https://github.com/Starry-OS/axconfig.git" }
 axlog = { git = "https://github.com/Starry-OS/axlog.git" }
 axio = { git = "https://github.com/Starry-OS/axio.git" }
 axerrno = { git = "https://github.com/Starry-OS/axerrno.git" }
-axhal = { git = "https://github.com/Starry-OS/axhal.git" }
-axalloc = { git = "https://github.com/Starry-OS/axalloc.git", optional = true }
-axtask = { git = "https://github.com/Starry-OS/axtask.git", optional = true }
-axfs = { git = "https://github.com/Starry-OS/axfs.git", optional = true }
-axnet = { git = "https://github.com/Starry-OS/axnet.git", optional = true }
+axhal = { git = "https://github.com/Josen-B/axhal.git" }
+axalloc = { git = "https://github.com/Josen-B/axalloc.git", optional = true }
+axtask = { git = "https://github.com/Josen-B/axtask.git", optional = true }
+axfs = { git = "https://github.com/Josen-B/axfs.git", optional = true }
+axnet = { git = "https://github.com/Josen-B/axnet.git", optional = true }
 axdisplay = { git = "https://github.com/Starry-OS/axdisplay.git", optional = true }
